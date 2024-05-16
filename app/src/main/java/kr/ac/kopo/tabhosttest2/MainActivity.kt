@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity(), ActionBar.TabListener {
     override fun onTabReselected(tab: ActionBar.Tab?, ft: FragmentTransaction?) {
 
     }
+
     // 탭을 선택하면 변경되는 Content로 Fragment를 사용
     class MyFragment : Fragment() {
         var tabName : String? = null
